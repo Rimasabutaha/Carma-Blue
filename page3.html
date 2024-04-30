@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carma Blue</title>
+    <link rel="stylesheet" href="./page3.css">
+    <link rel="icon" type="image/x-icon" href="./images/header_2-removebg-preview.png">
+    <script defer src="./page3.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo"></div>
+          <h1>carma</h1>
+    </div>
+
+    <div class="container">
+        <form id="form" method="GET">
+
+            <input type="hidden" name="access_key" value="47ccea15-777a-4aa4-b092-92b6fc7b8b14">
+            <input type="hidden" name="subject" value="new submission in contact" />
+
+            <div class="input-control" id="all">
+                <label for="fullname" class="heading">Full Name</label>
+                <input id="fullname" name="fullname" type="text" placeholder="Full Name">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control" id="all">
+                <label for="salary" class="heading">Salary</label>
+                <input id="salary" name="salary" type="numerical" placeholder="Salary (in numbers)">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control" id="all">
+                <label for="obligation" class="heading">Monthly Obligation</label>
+                <input id="obligation" name="obligation" type="numerical" placeholder="Monthly Obligation (in numbers)">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control" id="all">
+                <label for="rent" class="heading">Expected Yearly Rent Amount</label>
+                <input id="rent" name="rent" type="numerical" placeholder="Expected Yearly Rent Amount (in numbers)">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control" id="all">
+                <label for="date" class="heading">Expected Rent Start Date</label>
+                <input id="date" name="date" type="date" min="2023-10-07">
+                <div class="error"></div>
+            </div>
+
+            <button id="btn" class="Start-btn" type="submit" value="submit">Apply!</button>
+        </form>
+    </div>
+    
+</body>
+</html>

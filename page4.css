@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Rebrand-header;
+    src: url(./fonts/Rebrand\ Light.ttf);
+}
+
+@font-face {
+    font-family: Henderson-Sana-basic;
+    src: url(./fonts/Henderson\ Sans.otf);
+}
+
+@font-face {
+    font-family: Henderson-Sana-bold;
+    src: url(./fonts/HendersonSans\ Bold.otf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+    background-color: #0c0c4c;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    height: 100px;
+}
+
+.logo{
+  background-image: url("./images/header .png");  
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.header h1{
+    font-family: Rebrand-header;
+    color: white;
+    font-size: 300%;
+    height:90%;
+} 
+
+.correct{
+    width: 6%;
+    height: 6%;
+    margin-left: 47%;
+    margin-top: 70px;
+}
+
+.main-content{
+    color:white;
+    text-align: center;
+    font-family: Henderson-Sana-bold;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.main-content2{
+    font-family: Henderson-Sana-basic;
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .header{
+        display: flex;
+        margin-top: 18%;
+    }
+    
+    .logo{
+        background-image: url("./images/header .png");  
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        margin-right: 2%;
+      }
+      
+      .header h1{
+          font-family: Rebrand-header;
+          color: white;
+          font-size: 250%;
+          height:60%;
+      }
+
+    .correct{
+        width: 20%;
+        height: 20%;
+        margin-left: 39%;
+        margin-top: 130px;
+    }
+    
+    .main-content{
+        color:white;
+        text-align: center;
+        font-family: Henderson-Sana-bold;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    
+    .main-content2{
+        font-family: Henderson-Sana-basic;
+        color:white;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
